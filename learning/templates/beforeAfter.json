@@ -1,0 +1,30 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-049",
+      "errorType": "validation_error",
+      "template": "beforeAfter",
+      "condition": "layout \"beforeAfter\" missing \"data\" field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-090",
+      "errorType": "validation_error",
+      "template": "beforeAfter",
+      "condition": "layout \"beforeAfter\" missing required field \"pairs\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

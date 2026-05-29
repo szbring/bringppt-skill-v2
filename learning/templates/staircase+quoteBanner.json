@@ -1,0 +1,18 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-003",
+      "errorType": "layout_overlap",
+      "template": "staircase+quoteBanner",
+      "condition": "Staircase fills all available height to maxBottom, then quoteBanner overlaps because no room left",
+      "fix": "Added h parameter to staircase (bring-core.js line 2836) to limit height. Also added h parameter to quoteBanner (line 703). When staircase is followed by quoteBanner, set staircase h:2.3 and remove quoteBanner author to reduce height from 1.4 to 0.8",
+      "occurrences": 1,
+      "lastSeen": "2026-03-17",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

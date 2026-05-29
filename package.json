@@ -1,0 +1,41 @@
+{
+  "name": "bringppt",
+  "version": "4.1.11",
+  "description": "BRING PPT generation skill for ChatGPT Business, Codex, and OpenAI-style agents. Builds BRING/薄云 branded PPTX decks from storyboard content with 91 active templates, validation, and optional Drive upload integration.",
+  "main": "bring-core.js",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "validate": "node validate-slides.js",
+    "validate:all": "node validate-slides.js --content --visual --stats",
+    "learning": "node learning-context.js",
+    "pipeline": "node ppt-pipeline.js",
+    "checkup": "node weekly-checkup.js",
+    "checkup:dry": "node weekly-checkup.js --dry-run",
+    "pdf": "python3 scripts/soffice.py --headless --convert-to pdf",
+    "outline": "node scripts/outline-to-storyboard.js",
+    "recommend": "node scripts/recommend-layout.js",
+    "regen": "node scripts/regenerate-slide.js",
+    "preview": "node scripts/live-preview.js",
+    "catalog": "node scripts/build-catalog.js",
+    "new:template": "node scripts/new-template.js",
+    "lint": "node scripts/lint.js",
+    "lint:fonts": "node scripts/lint-fonts.js",
+    "lint:zorder": "node scripts/scan-zorder.js",
+    "learning:report": "node scripts/learning-report.js",
+    "promote:traps": "node scripts/promote-traps.js",
+    "weights:reset": "node scripts/reset-weights.js",
+    "weights:reset:dry": "node scripts/reset-weights.js --dry-run",
+    "backfill:failures": "node scripts/backfill-failure-modes.js",
+    "learning:triage": "node scripts/learning-report.js --triage",
+    "doctor": "node scripts/doctor.js",
+    "doctor:visual": "node scripts/doctor.js --visual",
+    "clean": "node scripts/clean.js",
+    "cleanup": "bash scripts/cleanup-workspace.sh"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "pptxgenjs": "4.0.1"
+  }
+}

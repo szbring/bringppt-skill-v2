@@ -1,0 +1,90 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-025",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "Space budget exceeded: 3.65\" needed > 3.60\" available (overflow: 0.05\")",
+      "fix": "",
+      "occurrences": 2,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-026",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "  Layout breakdown: dataHighlight≈1.4\" + insightBanner≈2.0\" + spacing ≈ 3.65\"",
+      "fix": "",
+      "occurrences": 2,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-042",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "layout \"dataHighlight\" missing \"data\" field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-122",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "Space budget exceeded: 4.40\" needed > 3.80\" available (overflow: 0.60\")",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-08"
+    },
+    {
+      "id": "EP-123",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "  Layout breakdown: dataHighlight≈1.4\" + stepList≈2.8\" + spacing ≈ 4.40\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-08"
+    },
+    {
+      "id": "EP-124",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "Space budget exceeded: 4.15\" needed > 3.80\" available (overflow: 0.35\")",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-08"
+    },
+    {
+      "id": "EP-125",
+      "errorType": "validation_error",
+      "template": "dataHighlight",
+      "condition": "  Layout breakdown: dataHighlight≈1.4\" + stepList≈2.5\" + spacing ≈ 4.15\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-08"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

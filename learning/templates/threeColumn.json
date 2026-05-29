@@ -1,0 +1,42 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-027",
+      "errorType": "validation_error",
+      "template": "threeColumn",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "fix": "",
+      "occurrences": 2,
+      "lastSeen": "2026-04-24",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-028",
+      "errorType": "validation_error",
+      "template": "threeColumn",
+      "condition": "Space budget exceeded: 4.75\" needed > 3.65\" available (overflow: 1.10\")",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-029",
+      "errorType": "validation_error",
+      "template": "threeColumn",
+      "condition": "  Layout breakdown: threeColumn≈2.5\" + insightBanner≈2.0\" + spacing ≈ 4.75\"",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

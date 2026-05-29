@@ -1,0 +1,42 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-051",
+      "errorType": "validation_error",
+      "template": "checklist",
+      "condition": "layout \"checklist\" missing \"data\" field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-112",
+      "errorType": "validation_error",
+      "template": "checklist",
+      "condition": "Space budget exceeded: 4.25\" needed > 3.80\" available (overflow: 0.45\")",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-113",
+      "errorType": "validation_error",
+      "template": "checklist",
+      "condition": "  Layout breakdown: checklist≈2.0\" + insightBanner≈2.0\" + spacing ≈ 4.25\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

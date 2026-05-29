@@ -1,0 +1,23 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-091",
+      "errorType": "validation_error",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 11,
+      "lastSeen": "2026-05-12"
+    }
+  ],
+  "corrections": []
+}

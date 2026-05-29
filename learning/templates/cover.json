@@ -1,0 +1,66 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-016",
+      "errorType": "validation_error",
+      "template": "cover",
+      "condition": "color \"WHITE\" is not valid 6-digit hex (field: title.0.color)",
+      "fix": "",
+      "occurrences": 4,
+      "lastSeen": "2026-05-09",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-017",
+      "errorType": "validation_error",
+      "template": "cover",
+      "condition": "color \"WHITE\" is not valid 6-digit hex (field: title.1.color)",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-018",
+      "errorType": "validation_error",
+      "template": "cover",
+      "condition": "color \"ACCENT\" is not valid 6-digit hex (field: title.2.color)",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-037",
+      "errorType": "validation_error",
+      "template": "cover",
+      "condition": "color \"ACCENT\" is not valid 6-digit hex (field: title.1.color)",
+      "fix": "",
+      "occurrences": 3,
+      "lastSeen": "2026-05-09",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-040",
+      "errorType": "validation_error",
+      "template": "cover",
+      "condition": "missing required field \"title\" for type \"cover\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 2,
+      "lastSeen": "2026-04-20"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

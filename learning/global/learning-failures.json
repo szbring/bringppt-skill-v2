@@ -1,0 +1,972 @@
+{
+  "description": "重复踩坑记录：AI 再次触发已知陷阱的事件流水",
+  "version": 1,
+  "events": [
+    {
+      "trapId": "EP-027",
+      "template": "threeColumn",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "repeatedAt": "2026-04-24",
+      "gapDays": 4
+    },
+    {
+      "trapId": "EP-011",
+      "template": "section",
+      "condition": "missing required field \"sectionTitle\" for type \"section\"",
+      "repeatedAt": "2026-04-29",
+      "gapDays": 7
+    },
+    {
+      "trapId": "EP-093",
+      "template": "threeColumnWithSummary",
+      "condition": "unknown layout type \"threeColumnWithSummary\" — not in registry, will render as BLANK PAGE. Check doc",
+      "repeatedAt": "2026-04-29",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-019",
+      "template": "comparison",
+      "condition": "comparison.left.items[0] length 11 < minimum 12",
+      "repeatedAt": "2026-04-29",
+      "gapDays": 9
+    },
+    {
+      "trapId": "EP-016",
+      "template": "cover",
+      "condition": "color \"WHITE\" is not valid 6-digit hex (field: title.0.color)",
+      "repeatedAt": "2026-05-08",
+      "gapDays": 18
+    },
+    {
+      "trapId": "EP-037",
+      "template": "cover",
+      "condition": "color \"ACCENT\" is not valid 6-digit hex (field: title.1.color)",
+      "repeatedAt": "2026-05-08",
+      "gapDays": 18
+    },
+    {
+      "trapId": "EP-016",
+      "template": "cover",
+      "condition": "color \"WHITE\" is not valid 6-digit hex (field: title.0.color)",
+      "repeatedAt": "2026-05-09",
+      "gapDays": 1
+    },
+    {
+      "trapId": "EP-037",
+      "template": "cover",
+      "condition": "color \"ACCENT\" is not valid 6-digit hex (field: title.1.color)",
+      "repeatedAt": "2026-05-09",
+      "gapDays": 1
+    },
+    {
+      "trapId": "EP-089",
+      "template": "iconList",
+      "condition": "items[].desc length 42 exceeds error limit 40 for iconList",
+      "repeatedAt": "2026-05-11",
+      "gapDays": 13
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 13
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-117",
+      "template": "comparison",
+      "condition": "comparison.right.items[0] length 10 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 13
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-136",
+      "template": "comparison",
+      "condition": "comparison.left.items[0] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-117",
+      "template": "comparison",
+      "condition": "comparison.right.items[0] length 10 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-137",
+      "template": "comparison",
+      "condition": "comparison.right.items[1] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-141",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 12 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-142",
+      "template": "stepList",
+      "condition": "stepList.steps[1].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-143",
+      "template": "stepList",
+      "condition": "stepList.steps[2].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-147",
+      "template": "stepList",
+      "condition": "layout[1] \"quoteBanner\" startY=1.5 ≤ previous layout[0] \"stepList\" startY=2.5 (will overlap)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-148",
+      "template": "comparison",
+      "condition": "items count 1 outside valid range [2-5] for dataHighlight",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-149",
+      "template": "comparison",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-150",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 3.90\" needed > 3.90\" available (overflow: 0.00\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-151",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈2.2\" + caseBox≈0.7\" + quoteBanner≈0.5\" + spacing ≈ 3.90\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-152",
+      "template": "stepList",
+      "condition": "Space budget exceeded: 3.05\" needed > 2.30\" available (overflow: 0.75\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-153",
+      "template": "stepList",
+      "condition": "  Layout breakdown: stepList≈2.3\" + quoteBanner≈0.5\" + spacing ≈ 3.05\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-154",
+      "template": "stepList",
+      "condition": "Layout quoteBanner startY 1.5\" <= previous stepList 2.5\" - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-155",
+      "template": "twoColumnCards",
+      "condition": "Space budget exceeded: 4.45\" needed > 3.90\" available (overflow: 0.55\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-156",
+      "template": "twoColumnCards",
+      "condition": "  Layout breakdown: twoColumnCards≈2.9\" + dataHighlight≈1.3\" + spacing ≈ 4.45\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-157",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 5.10\" needed > 3.90\" available (overflow: 1.20\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-158",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈1.9\" + quoteBanner≈0.5\" + caseBox≈0.7\" + dataHighlight≈1.3\" + spacing",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-159",
+      "template": "comparison",
+      "condition": "Too many layouts (4) on single slide - max recommended is 2, absolute max is 3",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-136",
+      "template": "comparison",
+      "condition": "comparison.left.items[0] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-117",
+      "template": "comparison",
+      "condition": "comparison.right.items[0] length 10 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-137",
+      "template": "comparison",
+      "condition": "comparison.right.items[1] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-141",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 12 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-142",
+      "template": "stepList",
+      "condition": "stepList.steps[1].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-143",
+      "template": "stepList",
+      "condition": "stepList.steps[2].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-147",
+      "template": "stepList",
+      "condition": "layout[1] \"quoteBanner\" startY=1.5 ≤ previous layout[0] \"stepList\" startY=2.5 (will overlap)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-148",
+      "template": "comparison",
+      "condition": "items count 1 outside valid range [2-5] for dataHighlight",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-149",
+      "template": "comparison",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-150",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 3.90\" needed > 3.90\" available (overflow: 0.00\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-151",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈2.2\" + caseBox≈0.7\" + quoteBanner≈0.5\" + spacing ≈ 3.90\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-152",
+      "template": "stepList",
+      "condition": "Space budget exceeded: 3.05\" needed > 2.30\" available (overflow: 0.75\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-153",
+      "template": "stepList",
+      "condition": "  Layout breakdown: stepList≈2.3\" + quoteBanner≈0.5\" + spacing ≈ 3.05\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-154",
+      "template": "stepList",
+      "condition": "Layout quoteBanner startY 1.5\" <= previous stepList 2.5\" - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-155",
+      "template": "twoColumnCards",
+      "condition": "Space budget exceeded: 4.45\" needed > 3.90\" available (overflow: 0.55\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-156",
+      "template": "twoColumnCards",
+      "condition": "  Layout breakdown: twoColumnCards≈2.9\" + dataHighlight≈1.3\" + spacing ≈ 4.45\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-157",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 5.10\" needed > 3.90\" available (overflow: 1.20\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-158",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈1.9\" + quoteBanner≈0.5\" + caseBox≈0.7\" + dataHighlight≈1.3\" + spacing",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-159",
+      "template": "comparison",
+      "condition": "Too many layouts (4) on single slide - max recommended is 2, absolute max is 3",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-136",
+      "template": "comparison",
+      "condition": "comparison.left.items[0] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-117",
+      "template": "comparison",
+      "condition": "comparison.right.items[0] length 10 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-137",
+      "template": "comparison",
+      "condition": "comparison.right.items[1] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-141",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 12 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-142",
+      "template": "stepList",
+      "condition": "stepList.steps[1].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-143",
+      "template": "stepList",
+      "condition": "stepList.steps[2].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-147",
+      "template": "stepList",
+      "condition": "layout[1] \"quoteBanner\" startY=1.5 ≤ previous layout[0] \"stepList\" startY=2.5 (will overlap)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-148",
+      "template": "comparison",
+      "condition": "items count 1 outside valid range [2-5] for dataHighlight",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-149",
+      "template": "comparison",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-150",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 3.90\" needed > 3.90\" available (overflow: 0.00\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-151",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈2.2\" + caseBox≈0.7\" + quoteBanner≈0.5\" + spacing ≈ 3.90\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-152",
+      "template": "stepList",
+      "condition": "Space budget exceeded: 3.05\" needed > 2.30\" available (overflow: 0.75\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-153",
+      "template": "stepList",
+      "condition": "  Layout breakdown: stepList≈2.3\" + quoteBanner≈0.5\" + spacing ≈ 3.05\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-154",
+      "template": "stepList",
+      "condition": "Layout quoteBanner startY 1.5\" <= previous stepList 2.5\" - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-155",
+      "template": "twoColumnCards",
+      "condition": "Space budget exceeded: 4.45\" needed > 3.90\" available (overflow: 0.55\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-156",
+      "template": "twoColumnCards",
+      "condition": "  Layout breakdown: twoColumnCards≈2.9\" + dataHighlight≈1.3\" + spacing ≈ 4.45\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-157",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 5.10\" needed > 3.90\" available (overflow: 1.20\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-158",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈1.9\" + quoteBanner≈0.5\" + caseBox≈0.7\" + dataHighlight≈1.3\" + spacing",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-159",
+      "template": "comparison",
+      "condition": "Too many layouts (4) on single slide - max recommended is 2, absolute max is 3",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-091",
+      "template": "unknown",
+      "condition": "content page has no layouts — will render as blank page (violates Rule 9: no large blank areas)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-136",
+      "template": "comparison",
+      "condition": "comparison.left.items[0] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-117",
+      "template": "comparison",
+      "condition": "comparison.right.items[0] length 10 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-137",
+      "template": "comparison",
+      "condition": "comparison.right.items[1] length 9 < minimum 12",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-141",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 12 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-142",
+      "template": "stepList",
+      "condition": "stepList.steps[1].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-143",
+      "template": "stepList",
+      "condition": "stepList.steps[2].desc length 13 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-147",
+      "template": "stepList",
+      "condition": "layout[1] \"quoteBanner\" startY=1.5 ≤ previous layout[0] \"stepList\" startY=2.5 (will overlap)",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-148",
+      "template": "comparison",
+      "condition": "items count 1 outside valid range [2-5] for dataHighlight",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-149",
+      "template": "comparison",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-150",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 3.90\" needed > 3.90\" available (overflow: 0.00\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-151",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈2.2\" + caseBox≈0.7\" + quoteBanner≈0.5\" + spacing ≈ 3.90\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-152",
+      "template": "stepList",
+      "condition": "Space budget exceeded: 3.05\" needed > 2.30\" available (overflow: 0.75\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-153",
+      "template": "stepList",
+      "condition": "  Layout breakdown: stepList≈2.3\" + quoteBanner≈0.5\" + spacing ≈ 3.05\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-154",
+      "template": "stepList",
+      "condition": "Layout quoteBanner startY 1.5\" <= previous stepList 2.5\" - will overlap",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-155",
+      "template": "twoColumnCards",
+      "condition": "Space budget exceeded: 4.45\" needed > 3.90\" available (overflow: 0.55\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-156",
+      "template": "twoColumnCards",
+      "condition": "  Layout breakdown: twoColumnCards≈2.9\" + dataHighlight≈1.3\" + spacing ≈ 4.45\"",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-157",
+      "template": "comparison",
+      "condition": "Space budget exceeded: 5.10\" needed > 3.90\" available (overflow: 1.20\")",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-158",
+      "template": "comparison",
+      "condition": "  Layout breakdown: comparison≈1.9\" + quoteBanner≈0.5\" + caseBox≈0.7\" + dataHighlight≈1.3\" + spacing",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-159",
+      "template": "comparison",
+      "condition": "Too many layouts (4) on single slide - max recommended is 2, absolute max is 3",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-145",
+      "template": "comparison",
+      "condition": "layout \"comparison\" left.bullets → should be left.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-146",
+      "template": "comparison",
+      "condition": "layout \"comparison\" right.bullets → should be right.items",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-160",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    },
+    {
+      "trapId": "EP-163",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "repeatedAt": "2026-05-12",
+      "gapDays": 0
+    }
+  ]
+}

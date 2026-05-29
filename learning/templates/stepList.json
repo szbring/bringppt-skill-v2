@@ -1,0 +1,180 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-052",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "layout \"stepList\" missing \"data\" field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-141",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 12 < minimum 15",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-142",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "stepList.steps[1].desc length 13 < minimum 15",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-143",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "stepList.steps[2].desc length 13 < minimum 15",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-147",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "layout[1] \"quoteBanner\" startY=1.5 ≤ previous layout[0] \"stepList\" startY=2.5 (will overlap)",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-152",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "Space budget exceeded: 3.05\" needed > 2.30\" available (overflow: 0.75\")",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-153",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "  Layout breakdown: stepList≈2.3\" + quoteBanner≈0.5\" + spacing ≈ 3.05\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-154",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "Layout quoteBanner startY 1.5\" <= previous stepList 2.5\" - will overlap",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-160",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "steps count 1 outside valid range [2-7] for stepList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 9,
+      "lastSeen": "2026-05-12"
+    },
+    {
+      "id": "EP-163",
+      "errorType": "validation_error",
+      "template": "stepList",
+      "condition": "stepList.steps[0].desc length 2 < minimum 15",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 9,
+      "lastSeen": "2026-05-12"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

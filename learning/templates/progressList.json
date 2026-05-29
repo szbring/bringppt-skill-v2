@@ -1,0 +1,30 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-032",
+      "errorType": "validation_error",
+      "template": "progressList",
+      "condition": "Space budget exceeded: 4.25\" needed > 3.70\" available (overflow: 0.55\")",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-033",
+      "errorType": "validation_error",
+      "template": "progressList",
+      "condition": "  Layout breakdown: progressList≈2.0\" + insightBanner≈2.0\" + spacing ≈ 4.25\"",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

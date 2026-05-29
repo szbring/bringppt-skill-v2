@@ -1,0 +1,18 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-074",
+      "errorType": "validation_error",
+      "template": "sidebarLabel",
+      "condition": "layout \"sidebarLabel\" missing required field \"cards\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-22"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

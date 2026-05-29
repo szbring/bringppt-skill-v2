@@ -1,0 +1,30 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-009",
+      "errorType": "dataFormatError",
+      "template": "chartBar",
+      "condition": "storyboard-converter 将 labels 放在顶层而非 data 数组项内部，导致 pptxgenjs createExcelWorksheet 报错 Cannot read properties of undefined",
+      "fix": "labels 必须嵌套在 data 每个系列对象内：[{name, labels, values}]，不能是 {data:[{name,values}], labels}",
+      "occurrences": 1,
+      "lastSeen": "2026-04-17",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-126",
+      "errorType": "validation_error",
+      "template": "chartBar",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-08"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

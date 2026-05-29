@@ -1,0 +1,29 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-102",
+      "errorType": "validation_error",
+      "template": "colorMatrix",
+      "condition": "quadrants[].content length 68 exceeds error limit 60 for colorMatrix",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-103",
+      "errorType": "validation_error",
+      "template": "colorMatrix",
+      "condition": "quadrants[].content length 61 exceeds error limit 60 for colorMatrix",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    }
+  ],
+  "corrections": []
+}

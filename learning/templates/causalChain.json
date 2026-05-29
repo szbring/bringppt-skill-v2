@@ -1,0 +1,30 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-055",
+      "errorType": "validation_error",
+      "template": "causalChain",
+      "condition": "layout \"causalChain\" missing required field \"steps\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-075",
+      "errorType": "visual_issue",
+      "template": "causalChain",
+      "condition": "content和detail同时存在时，content使用valign:middle导致与detail文字重叠",
+      "fix": "有detail时content改用valign:top并限高至stepH*0.42，detail从stepH*0.50开始",
+      "source": "manual_qa",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-22"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

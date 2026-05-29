@@ -1,0 +1,17 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-093",
+      "errorType": "validation_error",
+      "template": "threeColumnWithSummary",
+      "condition": "unknown layout type \"threeColumnWithSummary\" — not in registry, will render as BLANK PAGE. Check docs/bring-templates.md for valid types.",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 2,
+      "lastSeen": "2026-04-29"
+    }
+  ],
+  "corrections": []
+}

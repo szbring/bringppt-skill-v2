@@ -1,0 +1,114 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-012",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 78 exceeds error limit 40 for iconList",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-013",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 67 exceeds error limit 40 for iconList",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-014",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 68 exceeds error limit 40 for iconList",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-015",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 66 exceeds error limit 40 for iconList",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-083",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items count 8 outside valid range [2-6] for iconList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-24"
+    },
+    {
+      "id": "EP-089",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 42 exceeds error limit 40 for iconList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 2,
+      "lastSeen": "2026-05-11"
+    },
+    {
+      "id": "EP-092",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items count 7 outside valid range [2-6] for iconList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-100",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 41 exceeds error limit 40 for iconList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-121",
+      "errorType": "validation_error",
+      "template": "iconList",
+      "condition": "items[].desc length 43 exceeds error limit 40 for iconList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

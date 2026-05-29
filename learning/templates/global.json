@@ -1,0 +1,48 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-004",
+      "errorType": "slide_size_mismatch",
+      "template": "global",
+      "condition": "PPTX被PowerPoint/Keynote/WPS打开后自动将幻灯片尺寸从LAYOUT_16x9(9144000×5143500 EMU=10×5.625英寸)调整为宽屏标准(12192000×6858000 EMU=13.33×7.5英寸)，导致内容只覆盖画布75%，右侧和底部出现大片空白",
+      "fix": "用unzip提取presentation.xml，将sldSz从cx=12192000 cy=6858000改回cx=9144000 cy=5143500，重新zip打包。或提示用户打开PPT时选择保持原始尺寸不调整。",
+      "occurrences": 1,
+      "lastSeen": "2026-04-16",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-005",
+      "errorType": "schema_no_unknown_field_detection",
+      "template": "global",
+      "condition": "validateAgainstSchema只遍历schema键验证值约束，不检查data中存在但schema未定义的字段（如bullets代替items），导致字段拼写错误时static为valid:true，生成出空白页",
+      "fix": "在validateAgainstSchema中新增第二遍历：遍历data的键，若不在schema中则加入warnings；对嵌套对象递归检测；validate-slides.js调用此函数并将warnings显示为WARN级别",
+      "occurrences": 1,
+      "lastSeen": "2026-04-16",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-038",
+      "errorType": "blank_page",
+      "template": "global",
+      "condition": "AI写了不存在的layout type（如tocPage写成toc、sectionSlide写成section），gen_ppt遇到unknown layout只打warn跳过，导致content页只有标题栏没有内容",
+      "fix": "validate-slides.js已加入unknown layout type检查，会报ERROR阻止生成；section页type必须是section（不是sectionSlide），content页layouts必须非空且每个type必须在registry中存在",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "resolved",
+      "source": "auto_validate",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "validate-slides.js 加入 unknown layout type 检查，报 ERROR 阻止生成；gen_ppt_template.js 加入 tocPage 兼容处理",
+        "verifiedBy": "manual_tested",
+        "resolvedAt": "2026-04-20",
+        "resolvedBy": "CHEN+AI 2026-04-20"
+      }
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

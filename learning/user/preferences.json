@@ -1,0 +1,42 @@
+{
+  "preferredTemplates": [
+    "phaseDiagram",
+    "cardGrid",
+    "twoColumnCards",
+    "quoteBanner",
+    "beforeAfter",
+    "causalChain",
+    "colorMatrix",
+    "staircase",
+    "sidebarLabel",
+    "caseBox",
+    "chartBar",
+    "timeline",
+    "swotGrid",
+    "insightBanner",
+    "checklist",
+    "quadrantMatrix",
+    "analysisMatrix",
+    "problemSolution",
+    "radialHub",
+    "ganttChart",
+    "kpiDashboard"
+  ],
+  "avoidedTemplates": [
+    "comparison",
+    "iconList",
+    "dataHighlight",
+    "styledTable",
+    "stepList",
+    "layeredList"
+  ],
+  "layoutDensity": "medium",
+  "corrections": [],
+  "stylePreferences": {
+    "enrichmentLevel": "high",
+    "engagementQuestionFrequency": 0.3,
+    "sectionTagUsage": true
+  },
+  "version": 1,
+  "description": "用户偏好模型，记录模板选择偏好和风格倾向；低QA高频模板默认降权，除非页面显式 suggestedLayout 指定。"
+}

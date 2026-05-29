@@ -1,0 +1,24 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-011",
+      "errorType": "validation_error",
+      "template": "swotGrid",
+      "condition": "quadrants字段名称错误，使用了items代替quadrants",
+      "fix": "swotGrid必须使用quadrants[]字段",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "resolved",
+      "source": "auto_validate",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      }
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "description": "BRINGPPT asset library — 通过 assetRef 语义引用机制集中管理图标/图片/Logo",
+  "icons": {
+    "_help": "图标用法：在 storyboard 里写 iconRef:'trending-up'，模板会自动解析到对应 SVG/形状",
+    "trending-up":   { "type": "shape",  "shape": "RIGHT_ARROW", "rotate": -30, "tags": ["增长","趋势","上升"] },
+    "trending-down": { "type": "shape",  "shape": "RIGHT_ARROW", "rotate": 30,  "tags": ["下降","回落"] },
+    "check":         { "type": "unicode", "char": "✓", "tags": ["完成","通过","对勾"] },
+    "cross":         { "type": "unicode", "char": "✗", "tags": ["失败","未通过","叉"] },
+    "warning":       { "type": "unicode", "char": "⚠", "tags": ["警告","风险"] },
+    "info":          { "type": "unicode", "char": "ℹ", "tags": ["提示","信息"] },
+    "star":          { "type": "unicode", "char": "★", "tags": ["重要","收藏","明星"] },
+    "target":        { "type": "unicode", "char": "◎", "tags": ["目标","靶心"] },
+    "people":        { "type": "unicode", "char": "👥", "tags": ["团队","用户","角色"] },
+    "lightbulb":     { "type": "unicode", "char": "💡", "tags": ["想法","创新","洞察"] },
+    "chart":         { "type": "unicode", "char": "📊", "tags": ["数据","图表","统计"] },
+    "gear":          { "type": "unicode", "char": "⚙", "tags": ["设置","配置","流程"] }
+  },
+  "photos": {
+    "_help": "图片用法：在 storyboard 里 imagePath: 'asset:cover-building'",
+    "cover-building": "library/photos/cover-building.jpg",
+    "abstract-blue":  "library/photos/abstract-blue.jpg"
+  },
+  "logos": {
+    "_help": "Logo 用法：brand.json 引用",
+    "bring": "library/logos/bring.png"
+  }
+}

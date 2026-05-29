@@ -1,0 +1,66 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-002",
+      "errorType": "layout_overflow",
+      "template": "cardGrid",
+      "condition": "Card height capped at 0.65 inches regardless of available space, causing excessive whitespace below",
+      "fix": "Increased max card height from 0.65 to 1.0 in bring-core.js line 1748",
+      "occurrences": 1,
+      "lastSeen": "2026-03-17",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-062",
+      "errorType": "validation_error",
+      "template": "cardGrid",
+      "condition": "cards[].desc length 69 exceeds error limit 50 for cardGrid",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 2,
+      "lastSeen": "2026-04-22"
+    },
+    {
+      "id": "EP-063",
+      "errorType": "validation_error",
+      "template": "cardGrid",
+      "condition": "cards[].desc length 61 exceeds error limit 50 for cardGrid",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 2,
+      "lastSeen": "2026-04-22"
+    },
+    {
+      "id": "EP-064",
+      "errorType": "validation_error",
+      "template": "cardGrid",
+      "condition": "cards[].desc length 63 exceeds error limit 50 for cardGrid",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 2,
+      "lastSeen": "2026-04-22"
+    },
+    {
+      "id": "EP-072",
+      "errorType": "visual_issue",
+      "template": "cardGrid",
+      "condition": "cardGrid 仅3张卡片时配合engagementQuestion，卡片区域仅占slide上方25%，底部留白超过60%",
+      "fix": "3张卡片时给每张卡片增加desc内容，或在cardGrid后增加quoteBanner/caseBox填充空间；也可改用twoColumnCards+第三项合并",
+      "source": "unknown",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-22"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

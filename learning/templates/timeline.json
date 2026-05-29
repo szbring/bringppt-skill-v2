@@ -1,0 +1,54 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-073",
+      "errorType": "validation_error",
+      "template": "timeline",
+      "condition": "layout \"timeline\" missing required field \"events\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-22"
+    },
+    {
+      "id": "EP-095",
+      "errorType": "validation_error",
+      "template": "timeline",
+      "condition": "events[].desc length 46 exceeds error limit 40 for timeline",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-096",
+      "errorType": "validation_error",
+      "template": "timeline",
+      "condition": "events[].desc length 53 exceeds error limit 40 for timeline",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-097",
+      "errorType": "validation_error",
+      "template": "timeline",
+      "condition": "events[].desc length 52 exceeds error limit 40 for timeline",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

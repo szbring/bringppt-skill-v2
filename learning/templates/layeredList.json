@@ -1,0 +1,102 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-057",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layout \"layeredList\" layers[0] missing \"tag\" — each layer must have a tag field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-058",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layout \"layeredList\" layers[1] missing \"tag\" — each layer must have a tag field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-059",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layout \"layeredList\" layers[2] missing \"tag\" — each layer must have a tag field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-084",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layers[].desc length 65 exceeds error limit 60 for layeredList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-24"
+    },
+    {
+      "id": "EP-094",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layers[].desc length 68 exceeds error limit 60 for layeredList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-29"
+    },
+    {
+      "id": "EP-131",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layers[].title length 30 exceeds error limit 22 for layeredList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-09"
+    },
+    {
+      "id": "EP-132",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layers[].title length 36 exceeds error limit 22 for layeredList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-09"
+    },
+    {
+      "id": "EP-133",
+      "errorType": "validation_error",
+      "template": "layeredList",
+      "condition": "layers[].title length 26 exceeds error limit 22 for layeredList",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-09"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

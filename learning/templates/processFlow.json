@@ -1,0 +1,66 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-030",
+      "errorType": "validation_error",
+      "template": "processFlow",
+      "condition": "Space budget exceeded: 3.95\" needed > 3.70\" available (overflow: 0.25\")",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-031",
+      "errorType": "validation_error",
+      "template": "processFlow",
+      "condition": "  Layout breakdown: processFlow≈1.7\" + insightBanner≈2.0\" + spacing ≈ 3.95\"",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-047",
+      "errorType": "validation_error",
+      "template": "processFlow",
+      "condition": "layout \"processFlow\" missing \"data\" field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    },
+    {
+      "id": "EP-085",
+      "errorType": "validation_error",
+      "template": "processFlow",
+      "condition": "steps count 6 outside valid range [2-5] for processFlow",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-24"
+    },
+    {
+      "id": "EP-127",
+      "errorType": "validation_error",
+      "template": "processFlow",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-08"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

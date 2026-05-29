@@ -1,0 +1,30 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-008",
+      "errorType": "wrongTemplate",
+      "template": "caseBox",
+      "condition": "作为全页独立布局使用时，默认h=1.2导致大量留白",
+      "fix": "案例页应使用layeredList或iconList，避免使用caseBox作为主内容区；同时storyboard中contentType=case应将suggestedLayout明确设为layeredList/iconList",
+      "occurrences": 1,
+      "lastSeen": "2026-04-17",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-060",
+      "errorType": "validation_error",
+      "template": "caseBox",
+      "condition": "layout \"caseBox\" missing \"startY\" — startY is required (no default value)",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

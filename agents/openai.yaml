@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bring PPT"
+  short_description: "生成、修复、校验和打包 BRING 风格 PPTX。"
+  default_prompt: |
+    使用 bringppt 处理大纲、报告、storyboard JSON、slides-data JSON、Word/DOCX 或 Markdown。
+    优先使用仓库路径 D:\Bringppt\bringppt-skill-main\bringppt-skill-main，按仓库管线生成，先校验再交付，并返回 .pptx 和校验摘要。

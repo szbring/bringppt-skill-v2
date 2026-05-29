@@ -1,0 +1,44 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-011",
+      "errorType": "validation_error",
+      "template": "section",
+      "condition": "missing required field \"sectionTitle\" for type \"section\"",
+      "fix": "",
+      "occurrences": 7,
+      "lastSeen": "2026-04-29",
+      "status": "resolved",
+      "source": "auto_validate",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "reopen_reason": "条件再次触发",
+      "reopenedAt": "2026-04-20"
+    },
+    {
+      "id": "EP-041",
+      "errorType": "validation_error",
+      "template": "section",
+      "condition": "missing required field \"sectionNumber\" for type \"section\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "resolved",
+      "resolution": {
+        "method": "validation_guard",
+        "summary": "Promoted to validators/learned-rules.json hard rule; validate-slides blocks this repeated pattern.",
+        "verifiedBy": "test_verified",
+        "resolvedAt": "2026-05-13",
+        "resolvedBy": "codex"
+      },
+      "occurrences": 5,
+      "lastSeen": "2026-04-22"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

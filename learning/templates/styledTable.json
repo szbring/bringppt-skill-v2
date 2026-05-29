@@ -1,0 +1,90 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-001",
+      "errorType": "layout_overflow",
+      "template": "styledTable",
+      "condition": "5-row table with 3 columns, row height formula too generous (0.28 per line + 0.12 padding, min 0.40)",
+      "fix": "Reduced to 0.22 per line + 0.12 padding, min 0.35 in bring-core.js line 978",
+      "occurrences": 1,
+      "lastSeen": "2026-03-17",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-034",
+      "errorType": "validation_error",
+      "template": "styledTable",
+      "condition": "Multiple layouts (2) without any startY specified - will overlap",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-035",
+      "errorType": "validation_error",
+      "template": "styledTable",
+      "condition": "Space budget exceeded: 5.50\" needed > 3.90\" available (overflow: 1.60\")",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-036",
+      "errorType": "validation_error",
+      "template": "styledTable",
+      "condition": "  Layout breakdown: styledTable≈3.3\" + insightBanner≈2.0\" + spacing ≈ 5.50\"",
+      "fix": "",
+      "occurrences": 1,
+      "lastSeen": "2026-04-20",
+      "status": "open",
+      "source": "auto_validate",
+      "resolution": null
+    },
+    {
+      "id": "EP-128",
+      "errorType": "validation_error",
+      "template": "styledTable",
+      "condition": "Space budget exceeded: 4.00\" needed > 3.90\" available (overflow: 0.10\")",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-09"
+    },
+    {
+      "id": "EP-129",
+      "errorType": "validation_error",
+      "template": "styledTable",
+      "condition": "  Layout breakdown: styledTable≈4.0\" + spacing ≈ 4.00\"",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-09"
+    },
+    {
+      "id": "EP-130",
+      "errorType": "validation_error",
+      "template": "styledTable",
+      "condition": "cells[] length 35 exceeds error limit 30 for styledTable",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-05-09"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}

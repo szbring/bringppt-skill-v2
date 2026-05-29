@@ -1,0 +1,230 @@
+{
+  "totalGenerations": 78,
+  "templateUsage": {
+    "threeColumn": {
+      "count": 58,
+      "qaPassRate": 0.85
+    },
+    "iconList": {
+      "count": 71,
+      "qaPassRate": 0.55
+    },
+    "phaseDiagram": {
+      "count": 32,
+      "qaPassRate": 1
+    },
+    "styledTable": {
+      "count": 89,
+      "qaPassRate": 0.7
+    },
+    "comparison": {
+      "count": 42,
+      "qaPassRate": 0.5
+    },
+    "cardGrid": {
+      "count": 89,
+      "qaPassRate": 0.8
+    },
+    "stepList": {
+      "count": 52,
+      "qaPassRate": 0.5
+    },
+    "twoColumnCards": {
+      "count": 99,
+      "qaPassRate": 0.75
+    },
+    "colorMatrix": {
+      "count": 25,
+      "qaPassRate": 0.9
+    },
+    "layeredList": {
+      "count": 46,
+      "qaPassRate": 0.6
+    },
+    "staircase": {
+      "count": 26,
+      "qaPassRate": 1
+    },
+    "quoteBanner": {
+      "count": 49,
+      "qaPassRate": 1
+    },
+    "beforeAfter": {
+      "count": 59,
+      "qaPassRate": 0.9
+    },
+    "timeline": {
+      "count": 18,
+      "qaPassRate": 0.8
+    },
+    "caseBox": {
+      "count": 27,
+      "qaPassRate": 0.95
+    },
+    "problemSolution": {
+      "count": 18,
+      "qaPassRate": 1
+    },
+    "processFlow": {
+      "count": 53,
+      "qaPassRate": 0.75
+    },
+    "dataHighlight": {
+      "count": 53,
+      "qaPassRate": 0.65
+    },
+    "chartBar": {
+      "count": 25,
+      "qaPassRate": 0.95
+    },
+    "swotGrid": {
+      "count": 10,
+      "qaPassRate": 0.95
+    },
+    "sidebarLabel": {
+      "count": 38,
+      "qaPassRate": 0.95
+    },
+    "causalChain": {
+      "count": 22,
+      "qaPassRate": 0.9
+    },
+    "insightBanner": {
+      "count": 21,
+      "qaPassRate": 0.95
+    },
+    "tocPage": {
+      "count": 3,
+      "qaPassRate": 1
+    },
+    "quadrantMatrix": {
+      "count": 10,
+      "qaPassRate": 1
+    },
+    "progressList": {
+      "count": 6,
+      "qaPassRate": 1
+    },
+    "checklist": {
+      "count": 22,
+      "qaPassRate": 0.85
+    },
+    "radialHub": {
+      "count": 18,
+      "qaPassRate": 1
+    },
+    "funnel": {
+      "count": 7,
+      "qaPassRate": 1
+    },
+    "analysisMatrix": {
+      "count": 10,
+      "qaPassRate": 1
+    },
+    "hourglass": {
+      "count": 7,
+      "qaPassRate": 1
+    },
+    "kpiDashboard": {
+      "count": 13,
+      "qaPassRate": 1
+    },
+    "achievement": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "chartLine": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "chartPie": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "chartCombo": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "chainFlow": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "snakeFlow": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "waveProgression": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "dualTrackTimeline": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "ganttChart": {
+      "count": 16,
+      "qaPassRate": 1
+    },
+    "moduleOverview": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "flowerPetal": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "vennDiagram": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "cycleDiagram": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "pyramid": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "orgChart": {
+      "count": 6,
+      "qaPassRate": 1
+    },
+    "dualPanel": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "fishbone": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "multiProjectCards": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "quarterlyPlan": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "quoteEmphasis": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "impactQuestion": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "imageText": {
+      "count": 5,
+      "qaPassRate": 1
+    },
+    "imageGallery": {
+      "count": 5,
+      "qaPassRate": 1
+    }
+  },
+  "averageContentDensity": {
+    "layoutsPerSlide": 1.1
+  },
+  "version": 1,
+  "description": "生成统计，追踪模板使用频率和QA通过率"
+}

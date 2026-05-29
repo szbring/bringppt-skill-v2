@@ -1,0 +1,18 @@
+{
+  "errorPatterns": [
+    {
+      "id": "EP-043",
+      "errorType": "validation_error",
+      "template": "radialHub",
+      "condition": "layout \"radialHub\" missing \"data\" field",
+      "fix": "",
+      "source": "auto_validate",
+      "status": "open",
+      "resolution": null,
+      "occurrences": 1,
+      "lastSeen": "2026-04-20"
+    }
+  ],
+  "corrections": [],
+  "archived": []
+}
