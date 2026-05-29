@@ -11,6 +11,7 @@
     "validate:all": "node validate-slides.js --content --visual --stats",
     "learning": "node learning-context.js",
     "pipeline": "node ppt-pipeline.js",
+    "package:skill": "node scripts/package-skill.js",
     "checkup": "node weekly-checkup.js",
     "checkup:dry": "node weekly-checkup.js --dry-run",
     "pdf": "python3 scripts/soffice.py --headless --convert-to pdf",
