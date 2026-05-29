@@ -1,4 +1,4 @@
-﻿# bringppt
+# bringppt
 
 `bringppt` 是面向 `Codex` 和 `ChatGPT` 的 BRING 风格 PowerPoint 生成 skill。  
 它可以把已确认的大纲、报告、storyboard JSON、slides-data JSON、Word 或 Markdown，转换成可编辑的 `.pptx` 文件，并保留生成、校验、修复、打包的完整流程。
@@ -13,11 +13,10 @@
 npx skills add https://github.com/szbring/bringppt-skill-v2 --skill bringppt
 ```
 
-安装后进入本地 skill 目录更新：
+以后需要更新时，重新执行同一条安装命令即可：
 
 ```powershell
-cd $env:USERPROFILE\.codex\skills\bringppt
-git pull
+npx skills add https://github.com/szbring/bringppt-skill-v2 --skill bringppt
 ```
 
 安装完成后，在 `Codex` 里直接说：
@@ -81,17 +80,16 @@ git pull
 - `@Bring PPT 使用 bringppt skill，把这份大纲生成 BRING 风格 PPTX，并完成 validate:all。`
 
 ### 在 Codex 里
-- 直接用 `npx skills add` 从 GitHub 安装：
+- 第一次安装，直接用 `npx skills add` 从 GitHub 安装：
 
 ```powershell
 npx skills add https://github.com/szbring/bringppt-skill-v2 --skill bringppt
 ```
 
-- 如果已经安装过，更新时可以直接进入本地目录拉取最新代码：
+- 如果以后 GitHub 上有新版本，重新执行同一条安装命令即可刷新本地副本：
 
 ```powershell
-cd $env:USERPROFILE\.codex\skills\bringppt
-git pull
+npx skills add https://github.com/szbring/bringppt-skill-v2 --skill bringppt
 ```
 
 - 安装后直接对 Codex 说：
@@ -106,11 +104,11 @@ git pull
 
 ### 1. 本地开发或 Codex 目录使用
 
-如果你要本地调试或在 Codex 里直接使用，推荐先用安装器把仓库装到本地 skill 目录，再安装依赖：
+如果你要本地调试，先用安装器把仓库装到本地 skill 目录，再进入安装目录安装依赖：
 
 ```powershell
 npx skills add https://github.com/szbring/bringppt-skill-v2 --skill bringppt
-cd $env:USERPROFILE\.codex\skills\bringppt
+cd $env:USERPROFILE\.agents\skills\bringppt
 npm install
 ```
 
